@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        try {
+            console.log("Consultando daatabase.")
+            //cons.select(tabclients);
+
+            throw new Error("Deu erro na consulta");
+        } catch (error) {
+            alert("Deu erro");
+            console.error(error);
+        } finally {
+            console.log("Sempre executa");
+        }
+    </script>
+</body>
+</html>
