@@ -1,0 +1,17 @@
+ <label>Nome: </label>
+                <input type="text" name="nome" id="name" placeholder="Digite seu nome">
+                <label>Idade: </label>
+                <input type="number" name="idade" id="age" placeholder="Digite sua idade">
+                <button onclick="document.getElementById('code').innerHTML = data(getElementById('name').value, document.getElementById('age').value)">Enviar</button>
+
+                <p id="code"></p>
+
+
+                <script src="script.js"></script>
+                    // function data(name, age) {
+                    //     return `Seu nome é ${name} e você tem ${age} anos.`
+
+                    //     if (age=="" && name=="") {
+                    //         return "Por favor, preencha todos os campos!"
+                    //     }
+                    // } -->
